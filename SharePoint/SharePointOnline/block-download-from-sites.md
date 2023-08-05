@@ -2,7 +2,7 @@
 ms.date: 03/01/2023
 title: Block download policy for SharePoint sites and OneDrive
 ms.reviewer: samust
-ms.author: mactra
+ms.author: mactra 
 author: MachelleTranMSFT
 manager: serdars
 recommendations: true
@@ -20,7 +20,7 @@ search.appverid:
 - SPO160
 - MET150
 - BSA160
-description: Learn how administrators can block download of files from a SharePoint and OneDrive without using conditional access policies.
+description: Learn how administrators can block download of files from a SharePoint and OneDrive without using conditional access policies..
 ---
 
 # Block download policy for SharePoint sites and OneDrive

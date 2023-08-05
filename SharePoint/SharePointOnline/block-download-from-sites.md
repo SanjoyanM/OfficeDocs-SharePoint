@@ -60,6 +60,14 @@ This feature requires a Microsoft Syntex - SharePoint Advanced Management licens
 
  `-ExcludedBlockDownloadGroupIds <comma separated group ids>` Exempts users from the mentioned groups from this policy and they can fully download any content for the site.
 
+  `-ExcludeBlockDownloadSharePointGroups <comma separated SharePoint group names>` Exempts users from the mentioned SharePoint Online groups from this policy and they can fully download any content for the site.
+
+  ## Additional capability
+
+ The following parameters can be used with this cmdlet to fine-tune it.
+
+ `-ReadOnlyForBlockDownloadPolicy $true` Can make the site read-only in addition to blocking downloads.
+
 ## App impact
 
 Blocking download may impact the user experience in some apps, including some Office apps. We recommend that you turn the policy on for some users and test the experience with the apps used in your organization. In Office, make sure to check the behavior in Power Apps and Power Automate when your policy is on.

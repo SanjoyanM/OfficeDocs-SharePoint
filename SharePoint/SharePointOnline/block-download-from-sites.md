@@ -10,7 +10,7 @@ audience: Admin
 f1.keywords: NOCSH
 ms.topic: article
 ms.service: sharepoint-online
-ms.localizationpriority: medium
+ms.localizationpriority: medium 
 ms.collection:
 - Strat_SP_admin
 - M365-collaboration
